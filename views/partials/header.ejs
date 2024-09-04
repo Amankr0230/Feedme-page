@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Nerko+One&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <% if(nav===true){ %>
+
+    <div class=" nav w-full px-20 py-0 flex justify-between text-white  color-zinc-700">
+      <div class="logo"><i class="ri-game-line ri-2x py-2"></i><p class="lt px-3">feedme!</p></div>
+      <div class="flex gap-10 items-center">
+        <a  class="tprofile" href="/profile">Profile</a><a class="tfeed" href="/feed">Feed</a><a class="px-3 py-2 bg-red-800 text-white rounded-lg"
+          href="/logout">logout</a>
+      </div>
+    </div>
+
+    <% } %>

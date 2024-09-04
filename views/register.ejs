@@ -1,0 +1,28 @@
+<% include ./partials/header.ejs %>
+
+<div class="w-full h-screen bg-center bg-cover bg-[url(https://wallpapers.com/images/high/black-and-red-split-o7ib4282nxyogc1e.webp)] flex items-center justify-center">
+    <div class="w-[29vw] h-[95vh] bg-white px-20 py-10 rounded-[30px] ">
+    <div class="loglogo"><i class="ri-game-fill ri-4x"></i><i class="ri-image-circle-fill"></i></div>
+    <h1 class="title text-2xl text-center font-bold text-zinc-800 tracking-normal leading-7">Welcome to
+      <h3 class="title1 text-center font-bold text-5xl"> FeedMe!!</h3> </h1>
+      <h3 class="flex justify-center mb-4 mt-3 font-medium leading-3">Find new ideas to feed</h3>
+      <form action="/register" method="post">
+        <input class="border-2 rounded-xl block mt-2 w-full px-3 py-2" type="text" name="username" placeholder="username">
+        <input class="border-2 rounded-xl block mt-2 w-full px-3 py-2" type="text" name="fullname" placeholder="fullname">
+        <input class="border-2 rounded-xl block mt-2 w-full px-3 py-2" type="email" name="email" placeholder="email">
+        <input class="border-2 rounded-xl block mt-2 w-full px-3 py-2" type="number" name="contact" placeholder="contact">
+        <input class="border-2 rounded-xl block mt-2 w-full px-3 py-2" type="password" name="password" placeholder="password">
+        
+        <input class=" lsubmit border-2 rounded-full block mt-5 w-full px-3 py-2 bg-red-600 text-white rounded-full"
+          type="submit" value="Create New Account">
+        <p class="text-xs text-zinc-700 mt-7 w-4/4 mx-auto flex text-center justify-center">By continuing, you agree Pinterest's Terms of Service and acknowledge you've read our Privacy Policy Notice at collection</p>
+      </form>
+      <hr class="line mt-4 w-45 flex items-center ml-5 color-zinc-700">
+      <a class="inline-block mt-7 text-sm font-medium text-zinc-700 flex text-center justify-center" href="/" >Already a member? Log in </a>
+    </div>
+
+  </div>
+
+
+
+<% include ./partials/footer.ejs %>

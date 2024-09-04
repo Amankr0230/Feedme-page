@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+.ri-game-fill {
+
+  color: red;
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  line-height: 4rem;
+}
+
+.ri-image-circle-fill {
+  color: red;
+  display: flex;
+  justify-content: center;
+  margin-top: -11px;
+  margin-left: 0px;
+  line-height: 4rem;
+}
+
+.title {
+  font-family: "Concert One", sans-serif;
+  font-size: large;
+}
+
+.title1 {
+  font-family: "Concert One", sans-serif;
+  color: red;
+
+  margin-top: -10px;
+}
+
+.shows {
+  font-family: "Concert One", sans-serif;
+  font-size: 40px;
+
+}
+
+.form {
+  border: 5px solid black;
+}
+
+
+
+.emailtag {
+  padding-top: 50px;
+  line-height: 1px;
+  font-size: 15px;
+
+
+}
+
+.passwordtag {
+  padding-top: 10px;
+  line-height: 1px;
+
+}
+
+.lsubmit:hover {
+  background: #c50000;
+  cursor: pointer;
+
+}
+
+.profile,
+.feed,
+.show,
+.add {
+  background: #ff9966;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff5e62, #ff9966);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 1;
+}
+
+.nav {
+  background-color: #FF3131;
+
+  opacity: 1;
+  border-radius: 2px;
+
+}
+
+.logo {
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
+}
+
+.loglogo {
+  border: none;
+  padding-bottom: -10px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.tprofile,
+.tfeed {
+  border: none;
+  padding: 3px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.tfeed:hover,
+.tprofile:hover {
+  border-bottom: 2px solid white;
+  border-radius: 2px;
+
+}
+
+.lt {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Concert One", sans-serif;
+}
